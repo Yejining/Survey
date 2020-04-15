@@ -104,7 +104,7 @@ This repository is for organizing papers on AutoML
 - 2015 Detecting the Influence of Spreading in Social Networks with Excitable Sensor Networks
 - 2018 Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting
 - 2019 Deep Leaning for Spatio-Temporal Data Mining: A Survey
-- [2019 Deep Learning Resolves Representative Movement Patterns inn a Marine Predator Species](Spatiotemporal/2. Spatiotemporal - former studies/2019 Deep Learning Resolves Representative Movement Patterns in a Marine Predator Species.md)
+- [2019 Deep Learning Resolves Representative Movement Patterns inn a Marine Predator Species](SpatioTemporal\2. Spatiotemporal - former studies\2019 Deep Learning Resolves Representative Movement Patterns in a Marine Predator Species.md)
 - 2020 Deep Learning Approach on Information Diffusion in Heterogeneous Networks
 
 ## 3. AutoML Projects on Image Classification or Object Detection
