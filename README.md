@@ -105,7 +105,7 @@ This repository is for organizing papers on AutoML
 - [2018 Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting](Spatiotemporal/2.%20Spatiotemporal%20-%20former%20studies/2018%20Diffusion%20Convolutional%20Recurrent%20Neural%20Network%20Data-Driven%20Traffic%20Forecasting.md)
 - 2019 Deep Leaning for Spatio-Temporal Data Mining: A Survey
 - [2019 Deep Learning Resolves Representative Movement Patterns in a Marine Predator Species](Spatiotemporal/2.%20Spatiotemporal%20-%20former%20studies/2019%20Deep%20Learning%20Resolves%20Representative%20Movement%20Patterns%20in%20a%20Marine%20Predator%20Species.md)
-- [2020 Deep Learning Approach on Information Diffusion in Heterogeneous Networks](Spatiotemporal/2.%20Spatiotemporal%20-%20former%20studies/2020%20Deep%20Learning%20Approach%20on%20Information%20Diffusion%20in%20Heterogeneous%20Networks)
+- [2020 Deep Learning Approach on Information Diffusion in Heterogeneous Networks](Spatiotemporal/2.%20Spatiotemporal%20-%20former%20studies/2020%20Deep%20Learning%20Approach%20on%20Information%20Diffusion%20in%20Heterogeneous%20Networks.md)
 
 ## 3. AutoML Projects on Image Classification or Object Detection
 
