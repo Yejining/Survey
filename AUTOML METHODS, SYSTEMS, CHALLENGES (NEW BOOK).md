@@ -6,8 +6,8 @@
 
 ### Contents
 
-1. [Part I AutoML Methods](# Part I AutoML Methods)
-   1. [Hyperparameter Optimization](# 1. Hyperparameter Optimization)
+1. [Part I AutoML Methods](#Part I AutoML Methods)
+   1. [Hyperparameter Optimization](#1. Hyperparameter Optimization)
    2. Meta-Learning
    3. Neural Architecture Search
 2. Part II AutoML Systems
