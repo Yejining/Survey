@@ -10,6 +10,12 @@
    1. [Hyperparameter Optimization](#1.-Hyperparameter-Optimization)
    2. Meta-Learning
    3. Neural Architecture Search
+      1. Model-Free Blackbox Optimization Methods
+      2. [Bayesian Optimization](#1.3.2-Bayesian-Optimization)
+         1. [Bayesian Optimization in a Nutshell](#Bayesian-Optimization-in-a-Nutshell)
+         2. [Surrogate Models](#Surrogate-Models)
+         3. [Configuration Space Description](#Configuration-Space-Description)
+         4. [Constrained Bayesian Optimization](#Constrained-Bayesian-Optimization)
 2. Part II AutoML Systems
    1. Auto-WEKA: Automatic Model Selection and Hyperparameter
    2. Hyperopt-Sklearn
@@ -24,7 +30,7 @@
 
 ## Part I AutoML Methods
 
-### 1. Hyperparameter Optimization
+### 1.  Hyperparameter Optimization
 
 #### 1.1 Introduction
 
@@ -48,6 +54,34 @@ $$
 $$
 
 #### 1.3 Blackbox Hyperparameter Optimization
+
+
+
+#### 1.3.2 Bayesian Optimization
+
+이번 장에서는 Bayesian optimization에 대한 간단히 소개하고, alternative surrogate models를 선보일 것이다. conditional and constrained configuration spaces에 대해 알아봄과 함께, hyperparameter optimization에서 중요한 몇가지 application에 대해서도 의논할 것이다.
+
+최근 Bayesian optimization에 대한 연구들은 HPO를 blackbox로 보지 않는다. 게다가, 많은 Bayesian optimization연구들이 HPO를 직접적으로 타겟팅하지 않고, HPO에 적용하는 식으로 연구한다.
+
+##### Bayesian Optimization in a Nutshell
+
+Bayesin Optimization은 두 개의 키로 이루어진 반복 알고리즘이다. 하나는 probabilistic surrogate model이고, 다른 하나는 acquisition function으로, 이 둘은 다음에 평가할 지점(point)를 결정하는 역할을 가지고 있다.
+
+각각의 반복마다, surrogate model은 target function이 파악된만큼 맞춰진다. 그러면 확률적 모델의 예측 분포를 사용하는 acquisition function이 다른 후보 포인트들을 결정한다.
+
+blackbox function을 평가하는 것과는 달리, acquisition function은 계산량이 작고, 완전히 최적화할 수 있다.
+
+<img src="images/acquisition function.png" alt="acquisition function" widht="500">
+
+<img src="images/illustration of bayesian optimization.png" alt="illustration of bayesian optimization" width="700">
+
+ ##### Surrogate Models
+
+한 번 읽어봤는데, 도저히 무슨말인지 모르겠어서 좀 더 찾아봐야 할 것 같다.
+
+##### Configuration Space Description
+
+##### Constrained Bayesian Optimization
 
 
 
