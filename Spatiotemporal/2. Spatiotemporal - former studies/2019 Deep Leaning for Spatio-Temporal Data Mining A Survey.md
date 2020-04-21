@@ -13,7 +13,7 @@ point
   - 여기에 쓰인 DNN은 [2017 Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction](2017%20Deep%20Spatio-Temporal%20Residual%20Networks%20for%20Citywide%20Crowd%20Flows%20Prediction.md)에 기초한다.
 - [57] [DeepCrime: Attentive Hierarchical Recurrent Networks for Crime Prediction](2018%20DeepCrime%20Attentive%20Hierarchical%20Recurrent%20Networks%20for%20Crime%20Prediction.md)
   - 범죄 예측을 위해 GRU 사용
-  - dataset으로는 범죄 현황 데이터와 POI 데이터 이용, [datapreprocessing.py]([https://github.com/Prabhat1808/CrimePrediction/blob/master/Python%20code/datapreprocessing.py](https://github.com/Prabhat1808/CrimePrediction/blob/master/Python code/datapreprocessing.py))로 데이터 전처리 코드 있음
+  - dataset으로는 범죄 현황 데이터와 POI 데이터 이용, [datapreprocessing.py](https://github.com/Prabhat1808/CrimePrediction/blob/master/Python code/datapreprocessing.py)로 데이터 전처리 코드 있음
 - [201] [Hetero-ConvLSTM: A Deep Learning Approach to Traffic Accident Prediction on Heterogeneous Spatio-Temporal Data](2018%20Hetero-ConvLSTM%20A%20Deep%20Learning%20Approach%20to%20Traffic%20Accident%20Prediction%20on%20Heterogeneous%20Spatio-Temporal%20Data.md)
   - ConvLSTM 사용해 교통 사고 예측
   - first merged the point data of traffic accidents and modeled the traffic accident count ini a spatio-temporal field as a 3-D tensor
