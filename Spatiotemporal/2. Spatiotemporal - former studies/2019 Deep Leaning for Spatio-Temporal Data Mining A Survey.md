@@ -11,8 +11,12 @@ point
 - [145] [2017 Deep Learning for Real Time Crime Forecasting](2017%20Deep%20Learning%20for%20Real%20Time%20Crime%20Forecasting.md)
   - 동시간대에 발생한 raw crime data를 한데 모아 이미지처럼 데이터를 만들고 예측한다는 점과 cnn을 사용해 예측한다는 점이 신기했음
   - 여기에 쓰인 DNN은 [2017 Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction](2017%20Deep%20Spatio-Temporal%20Residual%20Networks%20for%20Citywide%20Crowd%20Flows%20Prediction.md)에 기초한다.
-- [57] DeepCrime: Attentive Hierarchical Recurrent Networks for Crime Prediction
-- [201] Hetero-ConvLSTM: A Deep Learning Approach to Traffic Accident Prediction on Heterogeneous Spatio-Temporal Data
+- [57] [DeepCrime: Attentive Hierarchical Recurrent Networks for Crime Prediction](2018%20DeepCrime%20Attentive%20Hierarchical%20Recurrent%20Networks%20for%20Crime%20Prediction.md)
+  - 범죄 예측을 위해 GRU 사용
+  - dataset으로는 범죄 현황 데이터와 POI 데이터 이용, [datapreprocessing.py]([https://github.com/Prabhat1808/CrimePrediction/blob/master/Python%20code/datapreprocessing.py](https://github.com/Prabhat1808/CrimePrediction/blob/master/Python code/datapreprocessing.py))로 데이터 전처리 코드 있음
+- [201] [Hetero-ConvLSTM: A Deep Learning Approach to Traffic Accident Prediction on Heterogeneous Spatio-Temporal Data](2018%20Hetero-ConvLSTM%20A%20Deep%20Learning%20Approach%20to%20Traffic%20Accident%20Prediction%20on%20Heterogeneous%20Spatio-Temporal%20Data.md)
+  - ConvLSTM 사용해 교통 사고 예측
+  - first merged the point data of traffic accidents and modeled the traffic accident count ini a spatio-temporal field as a 3-D tensor
 
 
 
@@ -25,7 +29,7 @@ time series
 
 spatial maps
 
-- [184]  Dnn-based prediction model for spatio-temporal data
+- [184] [Dnn-based prediction model for spatio-temporal data](2016%20DNN-Based%20Prediction%20Model%20for%20Spatial-Temporal%20Data.md)
   - 까마귀의 이동이 spatial maps로 표현돼 input으로 들어가고, 이동을 예측한다는 점에서 이번 연구와 관련이 있을 것 같다는 생각이 들었음
 - [69] Hexagon-Based Convolutional Neural Network for Supply-Demand Forecasting of Ride-Sourcing Services
   - 도시를 육각형 단위로 쪼개 인접한 노드의 수가 사각형일 때보다 훨신 많아지도록 함
